@@ -1,5 +1,5 @@
 # METATRON
-AI-powered penetration testing assistant using local LLM on linux (Parrot OS)
+AI-powered penetration testing assistant using local LLM on Windows
 # 🔱 METATRON
 ### AI-Powered Penetration Testing Assistant
 
