@@ -1,0 +1,56 @@
+# Local configuration and user state
+metatron_config.json
+metatron_gui_state.json
+*.log
+*.lnk
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local build/cache folders
+.build/
+.cache/
+.tools/
+tmp*/
+reports/
+exports/
+
+# Packaging output
+packaging/build/
+packaging/dist/
+packaging/output/
+*.pkg
+*.toc
+*.pyz
+
+# Installer/source staging output from older workflows
+installer/payload/
+Metatron-Windows-Installer.zip
+
+# Generated tool binaries and artifacts
+tools/pingcastle/bin/
+tools/pingcastle/PGS-Metatron/
+*.pdb
+
+# Do not commit signing material
+*.pfx
+*.p12
+*.pem
+*.key
+*.cer
+*.crt
+
+# Keep the bundled Subfinder executable, but ignore other generated EXEs.
+*.exe
+!subfinder.exe
+
+# Keep the PyInstaller spec used by the release builder.
+!packaging/PGS-Metatron.spec
