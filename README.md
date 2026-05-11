@@ -34,6 +34,23 @@ Generated or local-only files are intentionally left out:
 
 PingCastle is large enough that its compiled EXE should be built locally if compiling separate.
 
+# Local AI Model setup and recommendation
+
+This was built and tested using LM Studio locally on Windows. Best model results so far have been using mistralai/ministral-3-14b-reasoning.
+
+GPU Tested: Nvidia GTX 4090 Mobile - 16GB vram  
+
+- Context Length: 32,000
+- GPU Offload: 25
+- Evaluation Batch Size: 1024
+- Seed: Any random 8 digit number you enter, just leave the check box on so it uses the same one each time
+- Flash Attention: Enabled
+- Temp: 0.1
+- Top K Sample: 10
+- Repeate Penalty: 1.1
+- Top P Sample: 0.95
+- Min P Sample: 0.05
+
 ## Windows Build Compile Prerequisites
 
 Install these on the build machine:
