@@ -139,3 +139,7 @@ The project is set up so generated secrets do not need to live in source control
 - Database passwords and cloud model API keys are stored in Windows Credential Manager.
 - Non-secret connection settings are stored under `%LOCALAPPDATA%\PGS-Metatron`.
 - Local config files are ignored by Git.
+
+## License And Notes
+This project is licensed under the terms of the MIT license. It was created predominantly as a PoC with the use of AI coding assistance and Codex. 
+- Specific tools are licensed under AGPL-3.0 license, Non-Profit OSL 3.0, GPL-2.0 license, Nmap Public Source License Version 0.95, and others. Any tool licensing is subject to the terms of their respecive code publishers, and any commercial use is subject to those licence requirements.
