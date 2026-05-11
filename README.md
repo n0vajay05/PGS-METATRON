@@ -31,7 +31,7 @@ Generated or local-only files are intentionally left out:
 - Code signing certificates or passwords.
 - Compiled PingCastle binary and debug symbols.
 
-PingCastle is large enough that its compiled EXE should be built locally instead of committed to GitHub.
+PingCastle is large enough that its compiled EXE should be built locally.
 
 ## Windows Build Prerequisites
 
