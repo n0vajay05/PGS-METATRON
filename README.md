@@ -10,6 +10,9 @@ The repository is prepared so another Windows user can inspect the source and bu
 
 Use this software should be used **ONLY** on systems you own or have explicit permission to test.
 
+## Screenshot
+<img width="1279" height="763" alt="image" src="https://github.com/user-attachments/assets/89c0d88e-7b27-4700-a3c4-04ffb94b50df" />
+
 ## What Is Included
 
 - Python GUI source and support modules.
@@ -24,16 +27,14 @@ Use this software should be used **ONLY** on systems you own or have explicit pe
 
 Generated or local-only files are intentionally left out:
 
-- Local config such as `metatron_config.json`.
-- Saved GUI layout state.
 - Virtual environments and dependency caches.
 - PyInstaller `build`, `dist`, and installer output folders.
 - Code signing certificates or passwords.
 - Compiled PingCastle binary and debug symbols.
 
-PingCastle is large enough that its compiled EXE should be built locally.
+PingCastle is large enough that its compiled EXE should be built locally if compiling separate.
 
-## Windows Build Prerequisites
+## Windows Build Compile Prerequisites
 
 Install these on the build machine:
 
