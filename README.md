@@ -1,3 +1,5 @@
+<img width="1536" height="279" alt="pgs-metatron" src="https://github.com/user-attachments/assets/45763e0d-2204-4e6c-844f-407bc3d8cc47" />
+
 # PGS Metatron
 
 PGS Metatron is a Windows GUI security assessment assistant for authorized testing. It runs external and internal reconnaissance tools, stores scan history in MariaDB, and can use a selected AI model provider for full-scan analysis.
@@ -6,7 +8,7 @@ The repository is prepared so another Windows user can inspect the source and bu
 
 ## Important Use Notice
 
-Use this software only on systems you own or have explicit permission to test.
+Use this software should be used **ONLY** on systems you own or have explicit permission to test.
 
 ## What Is Included
 
